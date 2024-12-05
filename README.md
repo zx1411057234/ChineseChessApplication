@@ -22,7 +22,7 @@
 9. 浮窗绘制局面
 
 
-#### 更新下载链接
+#### 软件下载链接
 
 1.  https://wwbw.lanzouj.com/chess11
 
