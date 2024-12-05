@@ -1,0 +1,22 @@
+<ScreenInfo>:
+    name: "ScreenInfo"
+
+    MDBoxLayout:
+        orientation: "vertical"
+        MDScrollView:
+            size_hint_y:.9
+            MDTextField:
+                id:id_info
+                text:"info"
+                text_color_normal: "orange"#app.theme_cls.primary_color#"black"
+                multiline:True
+                #disabled: True
+                readonly:True
+                mode: "rectangle"# fill round line rectangle
+        MDRelativeLayout:
+            size_hint_y:.1
+            orientation: "horizontal"
+            MDRectangleFlatButton:
+                pos_hint:{"center_x": .45, "center_y": .5}
+                text: "OK"
+                on_release:app.back_mainScreen()
